@@ -2,31 +2,32 @@
   "name": "gamified-task-tracker",
   "version": "0.1.0",
   "private": true,
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest"
   },
   "dependencies": {
-    "expo": "~48.0.0",
+    "expo": "~48.0.21",
     "expo-status-bar": "~1.4.4",
     "expo-notifications": "~0.18.1",
     "firebase": "^9.19.1",
     "react": "18.2.0",
-    "react-native": "0.71.8",
+    "react-native": "0.71.14",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
     "zustand": "^4.4.0",
-    "react-native-paper": "^5.10.1"
+    "react-native-paper": "^5.10.1",
+    "expo-splash-screen": "~0.18.2"
   },
   "devDependencies": {
     "@testing-library/react-native": "^12.1.5",
     "jest": "^29.6.1",
     "babel-jest": "^29.6.1",
-    "react-test-renderer": "18.2.0"
+    "react-test-renderer": "18.2.0",
+    "@babel/core": "^7.20.0"
   },
   "jest": {
     "preset": "react-native"
