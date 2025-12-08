@@ -32,49 +32,14 @@ React Native Paper (UI primitives) — optional
 
 Jest + React Native Testing Library (tests)
 
-Project structure
-gamified-task-tracker/
-├─ README.md
-├─ package.json
-├─ app.json
-├─ babel.config.js
-├─ .eslintrc.js
-├─ assets/
-├─ src/
-│  ├─ App.js
-│  ├─ firebase.js
-│  ├─ navigation/
-│  │  └─ index.js
-│  ├─ screens/
-│  │  ├─ HomeScreen.js
-│  │  ├─ TaskEditorScreen.js
-│  │  ├─ RewardsScreen.js
-│  │  └─ ProfileScreen.js
-│  ├─ components/
-│  │  ├─ TaskList.js
-│  │  ├─ TaskItem.js
-│  │  ├─ GamificationHUD.js
-│  │  └─ RewardCard.js
-│  ├─ services/
-│  │  ├─ tasksService.js
-│  │  ├─ gamificationService.js
-│  │  └─ notifications.js
-│  ├─ store/
-│  │  └─ useStore.js
-│  └─ utils/
-│     └─ dateHelpers.js
-└─ tests/
-   └─ gamification.test.js
-Quick start (local)
 
-Install Expo CLI: npm install -g expo-cli
+Startup:
+1. Install Expo CLI: npm install -g expo-cli
 
-Clone the repo
+2. Clone the repo
 
-cd gamified-task-tracker
+3. npm install
 
-npm install
+To run in Xcode:
+4. open ./ios/GamifiedTaskTracker.xcworkspace
 
-Create a Firebase project and add config to src/firebase.js
-
-expo start
