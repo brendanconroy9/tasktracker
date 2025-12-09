@@ -1,0 +1,10 @@
+
+
+Command to run in xcode: (in ios directory)
+
+open GamifiedTaskTracker.xcworkspace
+
+
+other command to run: (from ios directory)
+
+npx react-native run-ios
